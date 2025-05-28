@@ -1,5 +1,6 @@
 const express = require('express');
 const cors = require('cors');
+const fetch = require('node-fetch');
 
 const app = express();
 app.use(cors());
@@ -24,7 +25,8 @@ app.post('/palette', async (req, res) => {
 	}
 });
 
-const PORT = 4000;
+const PORT = process.env.PORT || 4000;
+
 app.listen(PORT, () => {
-	console.log(`Express server running on http://localhost:${PORT}`);
+	console.log(`Express server running on port ${PORT}`);
 });
