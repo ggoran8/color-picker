@@ -1,0 +1,12 @@
+.hexLabel {
+	font-size: clamp(0.55rem, 0.5vw + 0.4rem, 0.85rem);
+	margin-top: 4px;
+	text-transform: uppercase;
+	user-select: none;
+	transition: opacity 0.2s;
+	cursor: pointer;
+}
+
+.hexLabel:hover {
+	opacity: 0.75;
+}

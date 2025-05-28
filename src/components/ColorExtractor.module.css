@@ -1,0 +1,93 @@
+.extractorWrapper {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+	margin-top: 2rem;
+	text-align: center;
+	width: 85%;
+	max-width: 1000px;
+	margin: 0 auto;
+}
+
+.uploadWrapper {
+	width: 200px;
+	height: 50px;
+	border: 2px solid black;
+	border-radius: 0.2rem;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+	position: relative;
+	margin-top: 1rem;
+	cursor: pointer;
+	border-radius: 8px;
+}
+
+.uploadWrapper p {
+	/* margin-top: 10px; */
+	font-size: 16px;
+}
+
+.uploadWrapper .dragOver {
+	background-color: #f0f0f0;
+}
+
+.uploadInput {
+	display: none;
+}
+
+.imagePreview {
+	max-width: 85%;
+	margin-top: 1rem;
+	border-radius: 8px;
+}
+
+.colorSwatches {
+	margin-top: 1rem;
+	display: flex;
+	width: 85%;
+	justify-content: center;
+	gap: clamp(0.2rem, 2vw + 0.1rem, 1rem);
+	/* flex-wrap: wrap; */
+}
+
+.colorSwatchWrapper {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	text-align: center;
+	/* width: 80px;  */
+}
+
+.hexName {
+	font-size: 0.65rem;
+	text-transform: uppercase;
+	/* background-color: rgba(
+		0,
+		0,
+		0,
+		0.2
+	); */
+	border-radius: 4px;
+	padding: 2px 4px;
+	margin-bottom: 5px;
+	width: 100%;
+	text-align: center;
+}
+
+.colorSwatch {
+	width: clamp(45px, 5vw, 100px);
+	height: clamp(45px, 5vw, 100px);
+	border-radius: 4px;
+}
+
+.colorName {
+	font-size: 0.75rem;
+	margin-top: 0.25rem;
+	max-width: 45px;
+	word-wrap: break-word;
+	overflow-wrap: break-word;
+	text-align: center;
+}

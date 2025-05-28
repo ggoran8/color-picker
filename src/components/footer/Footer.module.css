@@ -1,0 +1,47 @@
+.container {
+	display: flex;
+	justify-content: center;
+	flex-direction: column;
+	width: 50%;
+	margin: 1rem 0 2rem 0;
+}
+
+.container div {
+	display: flex;
+	justify-content: space-between;
+	text-align: center;
+	text-decoration: none;
+	padding: 0 0.5rem;
+	/* width: 85%; */
+	margin: 0 4rem;
+}
+
+.container a {
+	color: black;
+	position: relative;
+	display: inline-block;
+	text-decoration: none;
+	color: inherit;
+}
+
+.container a::after {
+	content: '';
+	position: absolute;
+	left: 0;
+	bottom: -2px;
+	height: 2px;
+	width: 100%;
+	background-color: #264052;
+	transform: scaleX(0);
+	transform-origin: left;
+	transition: transform 0.3s ease;
+}
+
+.container a:hover::after {
+	transform: scaleX(1);
+}
+
+small {
+	text-align: center;
+	padding-bottom: 1rem;
+}

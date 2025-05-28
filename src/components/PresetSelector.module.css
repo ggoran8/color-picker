@@ -1,0 +1,55 @@
+.container {
+	text-align: center;
+}
+
+.label {
+	margin-bottom: 0.5rem;
+	font-weight: 500;
+}
+
+.buttonGroup {
+	display: flex;
+	justify-content: center;
+	gap: 0.5rem;
+	flex-wrap: wrap;
+}
+
+.presetButton {
+	padding: 0.5rem 1rem;
+	background-color: #264052;
+	color: white;
+	border: none;
+	cursor: pointer;
+	border-radius: 0.2rem;
+	transition: background-color 0.2s ease;
+}
+
+.presetButton:hover {
+	background-color: #466b86;
+}
+
+.paletteDisplay {
+	margin-top: 1rem;
+}
+
+.presetName {
+	margin-bottom: 0.5rem;
+}
+
+.colorSwatches {
+	display: flex;
+	justify-content: center;
+	gap: 0.5rem;
+}
+
+.swatch {
+	width: clamp(45px, 10vw, 300px);
+	height: clamp(45px, 10vw, 300px);
+	border-radius: 4px;
+}
+
+.hexLabel {
+	font-size: 0.65rem;
+	margin-top: 4px;
+	text-transform: uppercase;
+}
