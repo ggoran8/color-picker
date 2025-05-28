@@ -10,7 +10,7 @@ function PresetColors() {
 
 		Promise.all(
 			models.map((model) =>
-				fetch('http://localhost:4000/palette', {
+				fetch('https://color-picker-w17a.onrender.com/palette', {
 					method: 'POST',
 					headers: { 'Content-Type': 'application/json' },
 					body: JSON.stringify({ model }),
