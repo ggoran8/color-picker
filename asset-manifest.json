@@ -1,0 +1,21 @@
+{
+  "files": {
+    "main.css": "/color-picker/static/css/main.b6ba5a2a.css",
+    "main.js": "/color-picker/static/js/main.d9469fa1.js",
+    "static/media/hero.jpg": "/color-picker/static/media/hero.1b678916037768b46847.jpg",
+    "index.html": "/color-picker/index.html",
+    "static/media/github.svg": "/color-picker/static/media/github.3f6656510add442acaf6db45b84ea7a2.svg",
+    "static/media/unlocked.svg": "/color-picker/static/media/unlocked.f5792520c8572632435196c897840805.svg",
+    "static/media/locked.svg": "/color-picker/static/media/locked.885f305624648935797bfee9f789c876.svg",
+    "static/media/linkedin.svg": "/color-picker/static/media/linkedin.30dab71a78ed8fad777e37aea4cb05d4.svg",
+    "static/media/mail.svg": "/color-picker/static/media/mail.9c1ce0b400462106ec8457e4f5ea9544.svg",
+    "static/media/home.svg": "/color-picker/static/media/home.b8c26e7acb8c26b07be88874516d8e26.svg",
+    "static/media/twitter.svg": "/color-picker/static/media/twitter.c3c7e29aa14d7614aa7fdeb822180554.svg",
+    "main.b6ba5a2a.css.map": "/color-picker/static/css/main.b6ba5a2a.css.map",
+    "main.d9469fa1.js.map": "/color-picker/static/js/main.d9469fa1.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.b6ba5a2a.css",
+    "static/js/main.d9469fa1.js"
+  ]
+}
