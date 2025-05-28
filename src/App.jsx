@@ -17,7 +17,7 @@ function App() {
 	const pickerRef = useRef(null);
 
 	const fetchPalette = () => {
-		fetch('http://localhost:4000/palette', {
+		fetch('https://color-picker-w17a.onrender.com', {
 			method: 'POST',
 			headers: { 'Content-Type': 'application/json' },
 			body: JSON.stringify({ model: 'default' }),
