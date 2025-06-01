@@ -2,13 +2,13 @@
 	display: flex;
 	justify-content: center;
 	flex-direction: column;
-	width: 50%;
+	width: 90%;
 	margin: 1rem 0 2rem 0;
 }
 
 .container div {
 	display: flex;
-	justify-content: space-between;
+	justify-content: space-evenly;
 	text-align: center;
 	text-decoration: none;
 	padding: 0 0.5rem;
